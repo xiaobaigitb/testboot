@@ -1,0 +1,10 @@
+server:
+  port: 8087
+spring:
+  application:
+    name: spring-boot-rabbitmq
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: root
+    password: root
