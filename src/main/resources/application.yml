@@ -1,0 +1,48 @@
+server:
+  port: 8089
+
+
+spring:
+#开启热部署
+  devtools:
+    restart:
+      enabled: true
+  #FileController
+  resources:
+    static-locations: classpath:html/,classpath:static/
+    #,file:
+  mvc:
+    view:
+      suffix: .html
+      prefix:
+    static-path-pattern: /JCccc/**
+  # SqlController
+  datasource:
+    druid:
+      url: jdbc:mysql://127.0.0.1:3306/test?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&useSSL=true&rewriteBatchedStatements=true
+      username: root
+      password: 1234
+      initialSize: 5
+      minIdle: 5
+      maxActive: 20
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: SELECT 1 FROM DUAL
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      poolPreparedStatements: true
+      maxPoolPreparedStatementPerConnectionSize: 20
+      useGlobalDataSourceStat: true
+      connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+#OpenOfficeController
+jodconverter:
+  local:
+    enabled: true
+    office-home: C:\Program Files (x86)\OpenOffice 4
+    max-tasks-per-process: 10
+    port-numbers: 8100
+  test:
+    test-file-path: D:\\testMyDoc\\doc\\testJc.docx
+    save-path: D:/testMyDoc/

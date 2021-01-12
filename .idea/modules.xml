@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-devtools-demo/springboot-devtools-demo.iml" filepath="$PROJECT_DIR$/springboot-devtools-demo/springboot-devtools-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatisplus-demo/springboot-mybatisplus-demo.iml" filepath="$PROJECT_DIR$/springboot-mybatisplus-demo/springboot-mybatisplus-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-quartz-demo/springboot-quartz-demo.iml" filepath="$PROJECT_DIR$/springboot-quartz-demo/springboot-quartz-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-retry-demo/springboot-retry-demo.iml" filepath="$PROJECT_DIR$/springboot-retry-demo/springboot-retry-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-shiro-demo/springboot-shiro-demo.iml" filepath="$PROJECT_DIR$/springboot-shiro-demo/springboot-shiro-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-validatecode-demo/springboot-validatecode-demo.iml" filepath="$PROJECT_DIR$/springboot-validatecode-demo/springboot-validatecode-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-websocekt-demo/springboot-websocekt-demo.iml" filepath="$PROJECT_DIR$/springboot-websocekt-demo/springboot-websocekt-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testboot.iml" filepath="$PROJECT_DIR$/testboot.iml" />
+    </modules>
+  </component>
+</project>

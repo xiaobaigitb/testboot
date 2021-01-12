@@ -1,0 +1,14 @@
+问题描述：git push 报 HTTP Basic: Access denied 错误
+Incorrect credentials.Request response:401 Unauthorized
+
+原因：本地git配置的用户名、密码与gitlabs上注册的用户名、密码不一致。
+
+解决方案：
+1. 如果账号密码有变动 用这个命令 git config –system –unset credential.helper 重新输入账号密码 应该就能解决了
+2. 如果用了第一个命令 还不能解决问题那么 用这个命令：
+git config –global http.emptyAuth true
+3.如果以上两个方法不起作用，那么采用以下方法：(目前使用这个方法)
+进入控制面板->用户账号->凭据管理器->windows凭据->普通凭据，在里面找到git，点开编辑密码，更新为最新密码之后就可以正常操作了
+
+git config --global user.name wb-sy772073
+git config --global user.email wb-sy772073@antgroup.com

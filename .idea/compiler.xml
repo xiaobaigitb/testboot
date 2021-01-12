@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-devtools-demo" />
+        <module name="springboot-mybatisplus-demo" />
+        <module name="springboot-quartz-demo" />
+        <module name="springboot-retry-demo" />
+        <module name="springboot-shiro-demo" />
+        <module name="springboot-validatecode-demo" />
+        <module name="springboot-websocekt-demo" />
+        <module name="testboot" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="springboot-devtools-demo" target="1.8" />
+      <module name="springboot-mybatisplus-demo" target="1.8" />
+      <module name="springboot-quartz-demo" target="1.8" />
+      <module name="springboot-retry-demo" target="8" />
+      <module name="springboot-shiro-demo" target="1.8" />
+      <module name="springboot-validatecode-demo" target="1.8" />
+      <module name="springboot-websocekt-demo" target="1.8" />
+      <module name="testboot" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
